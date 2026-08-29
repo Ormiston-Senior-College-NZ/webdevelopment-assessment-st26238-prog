@@ -1,0 +1,73 @@
+/* Navigation bar */
+
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #55a1f1;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.5s;
+}
+
+.sidenav a:hover {
+  color: #491414;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* Banner */
+
+.banner {
+  background-color: #4696ec;
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+  
+}
+
+.banner h1 {
+  color: #ffffff;
+  font-size: 30px;
+  margin: 0;
+}
+
+.banner span {
+  font-size: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  margin-top: -70px;
+  margin-bottom: 40px;
+  margin-left: -30px;
+}
+
+
+
